@@ -6,21 +6,23 @@ import Github from "../assets/github.png";
 
 function Footer() {
     return (
-<div class="max-w-screen-xl mx-auto mt-20 font-Grotesk">
-  <footer class="flex flex-col items-center justify-center bg-white-200 text-black py-4">
-    <div class="flex items-center flex-mobile mb-4 border-t-2 border-gray-400">
+<div class="max-w-screen-xl mx-auto mt-20 font-Grotesk px-4">
+  <footer class="bg-white-200 text-black py-4">
+    <div class="mb-4">
+    <div className="lg:flex lg:gap-[200px] items-center mb-8">
+    <div className="flex items-center">
       <a href="#"><img src={Image_one} alt="Logo" /></a>
       <h1 class="ml-2 text-xl font-bold"><a href="/">Off<span className="text-[#6666FF]">Pro</span></a></h1>
-      <div class="flex-1"></div>
-    {/* </div> */}
-    <div class="flex items-center space-x-4 px-4 flex-1">
-      <div class="ml-auto">
+      </div>
+      <div class="flex gap-4">
         <a href="/about" class="hover:text-gray-300">About</a>
         <a href="#" class="hover:text-gray-300">Terms & Condition</a>
         <a href="#" class="hover:text-gray-300">Contact Us</a>
         <a href="#" class="hover:text-gray-300">Device</a>
-      </div> </div>
-      <div class="pl-8">
+      </div>
+    </div>
+
+      <div class="lg:flex justify-between border-t-[1px] border-[#E5E7EB] pt-8">
         <div class="px-4 py-2 text-black-100">
            &copy; 2023 OffPro, Inc. All Rights Reserved.
         </div>

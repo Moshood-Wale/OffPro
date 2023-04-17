@@ -9,48 +9,5 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
-    <script>
-      // Add event listener to hamburger menu button
-      const mobileMenuButton = document.querySelector("#mobile-menu-button");
-      const mobileMenu = document.querySelector("#mobile-menu");
-    
-      mobileMenuButton.addEventListener("click", () => {
-        mobileMenu.classList.toggle("hidden");
-      });
-    </script>
-    
-    <!-- <script>
-      const mobileMenuButton = document.getElementById('mobile-menu-button');
-      const mobileMenuIcon = document.getElementById('mobile-menu-icon');
-      const mobileMenu = document.getElementById('mobile-menu');
-    
-      mobileMenuButton.addEventListener('click', () => {
-        mobileMenu.classList.toggle('hidden');
-      });
-    
-      mobileMenuIcon.addEventListener('click', () => {
-        mobileMenu.classList.toggle('hidden');
-      });
-    </script>
-    
-    <style>
-      /* Style the mobile menu to be on the same horizontal line as the logo and site name */
-      @media (max-width: 767px) {
-        .flex-mobile {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-        }
-    
-        #mobile-menu-button {
-          display: none;
-        }
-    
-        /* Style the mobile menu to be visible when the button is clicked */
-        #mobile-menu:not(.hidden) {
-          display: block;
-        }
-      }
-    </style> -->
   </body>
 </html>
